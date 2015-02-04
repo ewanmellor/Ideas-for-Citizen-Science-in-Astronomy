@@ -22,6 +22,8 @@ authors:
   address: Department of Physics, Denys Wilkinson Building, University of Oxford,<br />Keble Road, Oxford, OX1 3RH, UK.
 - name: Leigh N. Fletcher
   address: Atmospheric, Oceanic and Planetary Physics, Clarendon Laboratory, University of Oxford,<br />Parks Road, Oxford OX1 3PU, UK.
+
+include_advert: yes
 github_username: ewanmellor
 github_repo: Ideas-for-Citizen-Science-in-Astronomy
 iframe_src: review.pdf
