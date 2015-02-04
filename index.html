@@ -36,16 +36,17 @@ layout: default
         <ul>
           <li><a href="https://github.com/{{ site.github_username }}/{{ site.github_repo }}/issues">Send feedback</a></li>
         </ul>
+{% if site.include_advert %}
+      <br clear='all' />
+      <br clear='all' />
+      <p>This page was automatically published using gh-publisher, Travis CI, and GitHub Pages.
+Visit <a href="https://github.com/ewanmellor/gh-publisher">gh-publisher on GitHub</a> to learn more.</p>
+{% endif %}
       </header>
 {% if site.iframe_src %}
       <section>
 <iframe src="{{ site.iframe_src }}"></iframe>
       </section>
-{% endif %}
-{% if site.include_advert %}
-      <br clear='all' />
-      <p>This page was automatically published using gh-publisher, Travis CI, and GitHub Pages.
-Visit <a href="https://github.com/ewanmellor/gh-publisher">gh-publisher on GitHub</a> to learn more.</p>
 {% endif %}
     </div>
     <script src="javascripts/scale.fix.js"></script>
